@@ -1,22 +1,24 @@
 echo 'X^DE'
-cp -rf /storage/internal/archives /var/cache/apt/
 
-apt update && apt full-upgrade -y            && 
+cp -ru /storage/internal/archives/* /var/cache/apt/archives/
 
+apt update
+apt full-upgrade -y
 
-apt-get install nano -y python3 -y wget -y curl -y clang -y git -y grep -y nmap -y neofetch -y netcat -y openjdk-13-jdk -y net-tools -y zipalign -y screen -y apt-utils -y unzip -y pkg-config -y libfreetype6-dev -y php -y python3-pip -y python-pip -y metasploit-framework -y idle -y aircrack-ng -y exiftool -y apktool -y bettercap -y armitage -y lxde-core -y lxde -y                         && 
-
-
-pip3 install --upgrade pip && pip install --upgrade pip                                       && 
-
-pip install numpy && pip install matplotlib   &&
+apt-get install nano python3-pip wget curl clang git grep nmap neofetch netcat openjdk-13-jdk net-tools zipalign screen apt-utils unzip pkg-config libfreetype6-dev php python-pip metasploit-framework idle exiftool apktool lxde-core lxde -y &&
+#  bettercap armitage aircrack-ng sparta
+apt purge udisks2 -y && apt autoremove -y &&
+pip3 install --upgrade pip &&
+pip2 install --upgrade pip &&
+pip install numpy &&
+pip install matplotlib &&
 
 #sstrike
 
 git clone https://github.com/s0md3v/XSStrike.git && cd XSStrike && pip3 install -r requirements.txt                                                                                   &&
 
 
-cd ..           &&
+cd ..      
 
 #saycheese
 #git clone https://github.com/thelinuxchoice/saycheese && mv -f saycheese /storage/internal          &&
@@ -29,27 +31,29 @@ git clone https://github.com/DarkSecDevelopers/HiddenEye.git && chmod 777 Hidden
 wget https://github.com/remo7777/REMO773/raw/master/Ngrok-linux-arm.zip && unzip Ngrok*.zip && chmod 777 ngrok && cp ngrok Hidden*/Serv* && cd Hidd*/ && pip3 install -r req*.txt                                                                                  &&
 
 
-cd ..           &&
+cd ..       
 
 
 
 #trape(maynotwork)
 git clone https://github.com/Kecatoca/Trape.git && cd Trape && pip install -r requirements.txt                                                                                   &&
-
-
-cd ..           &&
-
-
-
-apt autoremove firefox-esr -y       &&
+pip uninstall six -y &&
+pip install six &&
+cd .. &&
 
 
 
-apt update && apt full-upgrade -y && apt install --fix-missing && apt autoremove && apt autoclean           && 
+apt autoremove firefox-esr -y
+
+apt update
+apt install --fix-missing -y
+apt full-upgrade -y
+apt autoremove
+apt autoclean          
  
 rm -rf /storage/internal/archives
 
-cp -rf /var/cache/apt/archives /storage/internal/         &&
+cp -rf /var/cache/apt/archives /storage/internal/  
 
 #firefox fix
 
