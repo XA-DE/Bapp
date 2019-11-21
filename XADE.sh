@@ -15,31 +15,23 @@ pip install matplotlib &&
 
 #sstrike
 
-git clone https://github.com/s0md3v/XSStrike.git && cd XSStrike && pip3 install -r requirements.txt                                                                                   &&
+git clone https://github.com/s0md3v/XSStrike.git && cd XSStrike && pip3 install -r req*.txt &&
 
 
-cd ..      
+cd .. &&   
 
 #saycheese
-git clone https://github.com/thelinuxchoice/saycheese && mv -f saycheese /storage/internal          &&
-
-
+git clone https://github.com/thelinuxchoice/saycheese && mv -f saycheese /storage/internal &&
 
 #shellphish
-
 git clone https://github.com/remo7777/shellphish.git && cd shellp* && wget https://github.com/remo7777/REMO773/raw/master/Ngrok-linux-arm.zip && unzip Ngrok*.zip && chmod 777 ngrok &&
-
-cd ..       
-
-
+cd .. &&
 
 #trape(maynotwork)
 git clone https://github.com/Kecatoca/Trape.git && cd Trape && pip install -r requirements.txt                                                                                   &&
 pip uninstall six -y &&
 pip install six &&
 cd .. &&
-
-
 
 apt autoremove firefox-esr -y
 
