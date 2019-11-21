@@ -21,15 +21,13 @@ git clone https://github.com/s0md3v/XSStrike.git && cd XSStrike && pip3 install 
 cd ..      
 
 #saycheese
-#git clone https://github.com/thelinuxchoice/saycheese && mv -f saycheese /storage/internal          &&
+git clone https://github.com/thelinuxchoice/saycheese && mv -f saycheese /storage/internal          &&
 
 
 
-#hiddeneye
+#shellphish
 
-git clone https://github.com/DarkSecDevelopers/HiddenEye.git && chmod 777 HiddenEye &&
-wget https://github.com/remo7777/REMO773/raw/master/Ngrok-linux-arm.zip && unzip Ngrok*.zip && chmod 777 ngrok && cp ngrok Hidden*/Serv* && cd Hidd*/ && pip3 install -r req*.txt                                                                                  &&
-
+git clone https://github.com/remo7777/shellphish.git && cd shellp* && wget https://github.com/remo7777/REMO773/raw/master/Ngrok-linux-arm.zip && unzip Ngrok*.zip && chmod 777 ngrok &&
 
 cd ..       
 
