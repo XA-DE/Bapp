@@ -13,7 +13,7 @@ pip3 install numpy &&
 pip3 install matplotlib &&
 
 #sstrike
-git clone https://github.com/s0md3v/XSStrike.git && cd XSStrike && pip3 install -r requirements.txt &&
+git clone https://github.com/s0md3v/XSStrike.git && cd XSStrike && pip install -r requirements.txt &&
 cd .. &&   
 
 #shellphish
@@ -21,9 +21,9 @@ git clone https://github.com/remo7777/shellphish.git && cd shellp* && wget https
 cd .. &&
 
 #trape(maynotwork)
-git clone https://github.com/Kecatoca/Trape.git && cd Trape && pip3 install -r requirements.txt &&
-pip uninstall six -y
-pip install six
+git clone https://github.com/Kecatoca/Trape.git && cd Trape && pip2 install -r requirements.txt &&
+pip2 uninstall six -y
+pip2 install six
 cd .. &&
 
 apt purge udisks2 firefox-esr -y
