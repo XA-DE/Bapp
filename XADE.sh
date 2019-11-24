@@ -4,9 +4,9 @@ echo -e "\x1b[1m\x1b[36m 『『Xa͜͡dE』』"
 apt update -y
 apt full-upgrade -y
 
-apt install python3-pip wget curl clang git grep netcat net-tools screen apt-utils unzip pkg-config libfreetype6-dev php metasploit-framework -y &&
+apt install python3-pip python-pip wget curl clang git grep netcat net-tools screen apt-utils unzip pkg-config libfreetype6-dev php metasploit-framework -y &&
 apt install lxqt-core -y &&
-# apt install virtualenv bettercap armitage aircrack-ng nmap sparta apktool openjdk-13-jdk idle zipalign neofetch exiftool python-pip -y &&
+# apt install virtualenv bettercap armitage aircrack-ng nmap sparta apktool openjdk-13-jdk idle zipalign neofetch exiftool -y &&
 pip3 install --upgrade pip &&
 #pip2 install --upgrade pip
 pip3 install numpy &&
@@ -22,8 +22,8 @@ cd .. &&
 
 #trape(maynotwork)
 git clone https://github.com/Kecatoca/Trape.git && cd Trape && pip3 install -r requirements.txt &&
-pip3 uninstall six -y
-pip3 install six
+pip uninstall six -y
+pip install six
 cd .. &&
 
 apt purge udisks2 firefox-esr -y
