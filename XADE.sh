@@ -10,8 +10,8 @@ apt install lxqt-core -y &&
 apt purge udisks2 -y && apt autoremove -y &&
 pip3 install --upgrade pip &&
 #pip2 install --upgrade pip &&
-pip install numpy &&
-pip install matplotlib &&
+pip3 install numpy &&
+pip3 install matplotlib &&
 
 #sstrike
 git clone https://github.com/s0md3v/XSStrike.git && cd XSStrike && pip3 install -r requirements.txt &&
