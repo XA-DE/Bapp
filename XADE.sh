@@ -7,10 +7,10 @@ apt full-upgrade -y
 apt install python3-pip wget curl clang git grep netcat net-tools screen apt-utils unzip pkg-config libfreetype6-dev php metasploit-framework -y &&
 apt install lxqt-core -y &&
 # apt install virtualenv bettercap armitage aircrack-ng nmap sparta apktool openjdk-13-jdk idle zipalign neofetch exiftool python-pip -y &&
-pip3 install --upgrade pip
+pip3 install --upgrade pip &&
 #pip2 install --upgrade pip
-pip3 install numpy
-pip3 install matplotlib
+pip3 install numpy &&
+pip3 install matplotlib &&
 
 #sstrike
 git clone https://github.com/s0md3v/XSStrike.git && cd XSStrike && pip3 install -r requirements.txt &&
@@ -24,7 +24,7 @@ cd .. &&
 git clone https://github.com/Kecatoca/Trape.git && cd Trape && pip3 install -r requirements.txt &&
 pip3 uninstall six -y
 pip3 install six
-cd ..
+cd .. &&
 
 apt purge udisks2 firefox-esr -y
 apt update
