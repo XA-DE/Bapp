@@ -13,7 +13,9 @@ pip3 install numpy &&
 pip3 install matplotlib &&
 
 #sstrike
-git clone https://github.com/s0md3v/XSStrike.git && cd XSStrike && pip install -r requirements.txt &&
+git clone https://github.com/s0md3v/XSStrike.git && cd XSStrike &&
+pip3 install -r requirements.txt
+pip install -r requirements.txt
 cd .. &&   
 
 #shellphish
