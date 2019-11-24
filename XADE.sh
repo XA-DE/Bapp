@@ -39,3 +39,5 @@ apt autoclean &&
 
 wget http://launchpadlibrarian.net/321038372/firefox_53.0.3+build1-0ubuntu0.16.04.2_arm64.deb &&
 dpkg -i firefox_53.0.3+build1-0ubuntu0.16.04.2_arm64.deb
+
+apt install -f -y
