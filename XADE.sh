@@ -8,8 +8,8 @@ apt install python3-pip wget curl clang git grep netcat net-tools screen apt-uti
 apt install lxqt-core -y &&
 # apt install virtualenv bettercap armitage aircrack-ng nmap sparta apktool openjdk-13-jdk idle zipalign neofetch exiftool python-pip -y &&
 apt purge udisks2 -y && apt autoremove -y &&
-#pip3 install --upgrade pip &&
-pip2 install --upgrade pip &&
+pip3 install --upgrade pip &&
+#pip2 install --upgrade pip &&
 pip install numpy &&
 pip install matplotlib &&
 
