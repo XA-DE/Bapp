@@ -36,3 +36,4 @@ apt install -f -y
 
 (open new terminal, copy and paste the above commands order-wise)
 '
+rm -rf T.sh
