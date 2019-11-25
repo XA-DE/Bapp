@@ -11,8 +11,8 @@ apt install python3-pip python-pip wget curl clang git grep netcat net-tools scr
 git clone https://github.com/s0md3v/XSStrike.git &&
 
 #shellphish
-git clone https://github.com/remo7777/shellphish.git && cd shellp* && wget https://github.com/remo7777/REMO773/raw/master/Ngrok-linux-arm.zip && unzip Ngrok*.zip && chmod 777 ngrok &&
-cd .. &&
+git clone https://github.com/remo7777/shellphish.git &&
+wget https://github.com/remo7777/REMO773/raw/master/Ngrok-linux-arm.zip && unzip Ngrok*.zip && chmod 777 ngrok && cp ngrok shellphish/ &&
 
 #trape(maynotwork)
 git clone https://github.com/Kecatoca/Trape.git
@@ -23,7 +23,5 @@ apt update
 apt full-upgrade -y
 apt install -f -y
 apt autoclean
-
-#pip3 install --upgrade pip && pip2 install --upgrade pip && pip3 install numpy && pip3 install matplotlib
 
 rm -rf XADE.sh
