@@ -18,10 +18,10 @@ cd .. &&
 git clone https://github.com/Kecatoca/Trape.git
 
 apt purge udisks2 -y
+apt autoremove -y
 apt update
 apt full-upgrade -y
 apt install -f -y
-apt autoremove -y
 apt autoclean
 
 #pip3 install --upgrade pip && pip2 install --upgrade pip && pip3 install numpy && pip3 install matplotlib
