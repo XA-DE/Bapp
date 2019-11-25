@@ -27,7 +27,7 @@ git clone https://github.com/Kecatoca/Trape.git && cd Trape && pip2 install -r r
 
 cd .. &&
 
-apt purge udisks2
+apt purge udisks2 -y
 apt update
 apt full-upgrade -y
 apt install -f -y
