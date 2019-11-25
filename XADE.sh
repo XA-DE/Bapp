@@ -22,6 +22,18 @@ apt autoremove -y
 apt update
 apt full-upgrade -y
 apt install -f -y
-apt autoclean
+apt autoclean &&
+
+wget https://github.com/XA-DE/Bapp/raw/master/XADE-lxqt.sh
+
+echo '
+
+
+bash XADE-lxqt.sh
+
+
+(use the above command to set desktop-environment & vnc)
+'
+
 
 rm -rf XADE.sh
