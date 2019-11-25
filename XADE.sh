@@ -12,20 +12,13 @@ pip3 install numpy &&
 pip3 install matplotlib &&
 
 #sstrike
-git clone https://github.com/s0md3v/XSStrike.git && cd XSStrike &&
-#pip3 install -r req*.txt
-cd .. &&   
-
+git clone https://github.com/s0md3v/XSStrike.git &&
 #shellphish
 git clone https://github.com/remo7777/shellphish.git && cd shellp* && wget https://github.com/remo7777/REMO773/raw/master/Ngrok-linux-arm.zip && unzip Ngrok*.zip && chmod 777 ngrok &&
 cd .. &&
 
 #trape(maynotwork)
-git clone https://github.com/Kecatoca/Trape.git && cd Trape && pip2 install -r requirements.txt &&
-#pip2 install -r req*.txt
-
-
-cd .. &&
+git clone https://github.com/Kecatoca/Trape.git
 
 apt purge udisks2 -y
 apt update
