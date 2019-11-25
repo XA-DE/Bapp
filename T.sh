@@ -25,5 +25,14 @@ apt update -y && apt install wget -y && wget https://github.com/XA-DE/Bapp/raw/m
 wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/DesktopEnvironment/Apt/LXQt/de-apt-lxqt.sh && bash de-apt-lxqt.sh
 
 
+
+#firefox fix
+
+apt purge firefox-esr -y &&
+wget http://launchpadlibrarian.net/321038372/firefox_53.0.3+build1-0ubuntu0.16.04.2_arm64.deb &&
+dpkg -i firefox_53.0.3+build1-0ubuntu0.16.04.2_arm64.deb
+
+apt install -f -y
+
 (open new terminal, copy and paste the above commands order-wise)
 '
