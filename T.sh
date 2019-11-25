@@ -20,6 +20,10 @@ su
 apt update -y && apt install wget -y && wget https://github.com/XA-DE/Bapp/raw/master/XADE.sh && bash XADE.sh
 
 
+#for kali-lxqt(if desktop environment is required)
+
+wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/DesktopEnvironment/Apt/LXQt/de-apt-lxqt.sh && bash de-apt-lxqt.sh
+
 
 (open new terminal, copy and paste the above commands order-wise)
 '
