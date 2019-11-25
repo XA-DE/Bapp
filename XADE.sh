@@ -25,3 +25,5 @@ apt install -f -y
 apt autoclean
 
 #pip3 install --upgrade pip && pip2 install --upgrade pip && pip3 install numpy && pip3 install matplotlib
+
+rm -rf XADE.sh
