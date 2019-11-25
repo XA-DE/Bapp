@@ -6,13 +6,10 @@ apt full-upgrade -y
 
 apt install python3-pip python-pip wget curl clang git grep netcat net-tools screen apt-utils unzip pkg-config libfreetype6-dev php metasploit-framework -y &&
 # apt install virtualenv bettercap armitage aircrack-ng nmap sparta apktool openjdk-13-jdk idle zipalign neofetch exiftool -y &&
-pip3 install --upgrade pip &&
-#pip2 install --upgrade pip
-pip3 install numpy &&
-pip3 install matplotlib &&
 
 #sstrike
 git clone https://github.com/s0md3v/XSStrike.git &&
+
 #shellphish
 git clone https://github.com/remo7777/shellphish.git && cd shellp* && wget https://github.com/remo7777/REMO773/raw/master/Ngrok-linux-arm.zip && unzip Ngrok*.zip && chmod 777 ngrok &&
 cd .. &&
@@ -26,3 +23,5 @@ apt full-upgrade -y
 apt install -f -y
 apt autoremove -y
 apt autoclean
+
+#pip3 install --upgrade pip && pip2 install --upgrade pip && pip3 install numpy && pip3 install matplotlib
