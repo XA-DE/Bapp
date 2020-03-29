@@ -83,3 +83,4 @@ echo "removing image for some space"
 rm $tarball
 echo "You can now launch Kali with the ./${bin} script"
 echo -e "\x1b[1m\x1b[36m 『『Xa͜͡dE』』& anlinux team"
+rm -rf XD*
