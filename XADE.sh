@@ -11,9 +11,9 @@ apt autoclean
 #chmod
 chmod +x /usr/local/bin/xadet
 xadet
-apt install python3-pip chromium wget curl clang git net-tools apt-utils unzip pkg-config libfreetype6-dev tightvncserver lxde-core metasploit-framework -y
+apt install python3-pip chromium wget curl clang git net-tools apt-utils unzip pkg-config libfreetype6-dev tightvncserver metasploit-framework -y
 
-#apt install python-pip virtualenv armitage nmap apktool grep openjdk-13-jdk zipalign screen -y
+#apt install python-pip virtualenv lxde-core nmap apktool grep openjdk-13-jdk zipalign screen -y
 xadet
 echo '
 export CHROMIUM_FLAGS="$CHROMIUM_FLAGS --password-store=detect --no-sandbox --user-data-dir"
