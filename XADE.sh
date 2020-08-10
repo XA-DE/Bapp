@@ -1,12 +1,12 @@
 #apt update -y && apt install wget && wget https://github.com/XA-DE/Bapp/raw/master/XADE.sh && bash XADE.sh
 #echo
 echo "
-apt purge udisks2 -y
-apt install -f -y
-apt update
-apt full-upgrade -y
-apt autoremove -y
-apt autoclean
+sudo apt purge udisks2 -y
+sudo apt install -f -y
+sudo apt update
+sudo apt full-upgrade -y
+sudo apt autoremove -y
+sudo apt autoclean
 " >> /usr/local/bin/xadet
 #chmod
 chmod +x /usr/local/bin/xadet
